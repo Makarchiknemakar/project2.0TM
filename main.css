@@ -1,0 +1,40 @@
+body{
+font-family: Arial, Verdana;/* Сімейство шрифтів */
+font-size: 18px;
+background-color:darkblue ;
+color: white;
+}
+
+h1{
+  color: rgb(240, 240, 240)   ;
+}
+h2{
+  color: white;
+}
+
+.button_1{
+  background:skyblue;
+  border:20px;
+  border-radius:25px;
+}
+.button_2{
+  background:lightgreen;
+  border:20px;
+  border-radius:25px;
+}
+.button_3{
+  background:tan;
+  border:20px;
+  border-radius:25px;
+}
+.button_4{
+  background:pink;
+  border:20px;
+  border-radius:25px;
+}
+.button_5{
+  background:red;
+  border:20px;
+  border-radius:25px;
+}
+
