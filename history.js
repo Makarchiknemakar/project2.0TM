@@ -1,4 +1,4 @@
-class HISTORYLangQuestion {
+class HistoryLangQuestion {
     constructor() {
         const questionPool = [
             {
