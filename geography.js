@@ -1,4 +1,4 @@
-class GEOGRAPHY LangQuestion {
+class GEOGRAPHYLangQuestion {
     constructor() {
         const questionPool = [
             {
