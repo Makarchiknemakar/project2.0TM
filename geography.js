@@ -65,7 +65,7 @@ class GeographyLangQuestion {
             },] 
                 
 
-        const randomIndex = GEOGRAPHY LangQuestion.counter++;
+        const randomIndex = GeographyLangQuestion.counter++;
         const data = questionPool[randomIndex];
 
         this.question = data.question;
@@ -81,7 +81,7 @@ class GeographyLangQuestion {
         }
     }
 }
-GEOGRAPHY LangQuestion.counter = 0;
+GeographyLangQuestion.counter = 0;
 
 const startBtn = document.querySelector('.start');
 const questionEl = document.querySelector('.question');
@@ -96,7 +96,7 @@ let score = 0;
 
 startBtn.addEventListener('click', () => {
     questions = [];
-    GEOGRAPHY LangQuestion.counter = 0;
+    GeographyLangQuestion.counter = 0;
     for (let i = 0; i < 12; i++) {
         questions.push(new  GEOGRAPHY LangQuestion());
     }
