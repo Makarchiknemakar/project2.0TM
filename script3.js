@@ -19,6 +19,7 @@ class Question {
         this.a = a || this.randNumber(-100, 100);
         this.b = b || this.randNumber(0, 100);
         this.sign = this.randSign();
+        this.b = this.sign === '/' && this.b === 0 ? 1 : this.b; // уникнення ділення на 0
         this.question = `${this.a} ${this.sign} ${this.b}`;
         this.correct = this.makeCorrect();
         this.answers = [
@@ -63,7 +64,7 @@ class Question {
             case '*':
                 return this.a * this.b;
             case '/':
-                return this.a / this.b;
+                return Number((this.a / this.b).toFixed(2));
         }
     }
 }
@@ -105,16 +106,20 @@ for (let i = 0; i < answers.length; i++) {
                 easing: 'linear' 
             });
         }
-        
+
         total++;
         questionCount++;
 
         if (questionCount >= 12) {
             testResult();
         } else {
+            // Скидання кольору кнопок перед наступним питанням
+            for (let btn of answers) {
+                btn.style.backgroundColor = '#ff7f50';
+            }
+
             currentQuest = new Question();
             currentQuest.display();
         }
     });
 }
-
