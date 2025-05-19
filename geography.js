@@ -62,7 +62,7 @@ class GeographyLangQuestion {
                {question: 'Україна межує з такою кількістю держав:',
                 correct: '7',
                 answers: ['5','6','7','8']
-            }, 
+            },] 
                 
 
         const randomIndex = GEOGRAPHY LangQuestion.counter++;
