@@ -15,6 +15,7 @@ body {
     align-items: center;
     padding: 40px 20px;
     display: none;
+    
 }
 
 .question {
@@ -23,6 +24,7 @@ body {
     margin-bottom: 30px;
     font-weight: 600;
     color: #222;
+    background-color:tan;
 }
 
 .answers {
@@ -31,6 +33,7 @@ body {
     gap: 15px;
     width: 100%;
     max-width: 600px;
+    background-color:tan;
 }
 
 .answer {
@@ -42,12 +45,14 @@ body {
     text-align: center;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    background-color:tan;
 }
 
 .answer:hover {
-    background-color: #ffb3a7;
+   
     border-color: #e44a4a;
     transform: scale(1.03);
+    background-color:tan;
 }
 
 .start {
@@ -55,7 +60,7 @@ body {
     font-size: 2.5em;
     font-weight: 600;
     border: none;
-    background-color: #6c5ce7;
+    background-color:tan;
     color: #fff;
     border-radius: 30px;
     cursor: pointer;
@@ -63,7 +68,7 @@ body {
 }
 
 .start:hover {
-    background-color: #5a4cd2;
+   background-color:tan;
 }
 
 .main-container {
