@@ -99,7 +99,7 @@ startBtn.addEventListener('click', () => {
     questions = [];
     HistoryLangQuestion.counter = 0;
     for (let i = 0; i < 12; i++) {
-        questions.push(new  HISTORY LangQuestion());
+        questions.push(new  HistoryLangQuestion());
     }
     current = 0;
     score = 0;
