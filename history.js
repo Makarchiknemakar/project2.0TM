@@ -82,7 +82,7 @@ class HistoryLangQuestion {
         }
     }
 }
-HISTORY LangQuestion.counter = 0;
+HistoryLangQuestion.counter = 0;
 
 const startBtn = document.querySelector('.start');
 const questionEl = document.querySelector('.question');
@@ -97,7 +97,7 @@ let score = 0;
 
 startBtn.addEventListener('click', () => {
     questions = [];
-    HISTORY LangQuestion.counter = 0;
+    HistoryLangQuestion.counter = 0;
     for (let i = 0; i < 12; i++) {
         questions.push(new  HISTORY LangQuestion());
     }
