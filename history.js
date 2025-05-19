@@ -66,7 +66,7 @@ class HistoryLangQuestion {
             }
         ];
 
-        const randomIndex = HISTORY LangQuestion.counter++;
+        const randomIndex = HistoryLangQuestion.counter++;
         const data = questionPool[randomIndex];
 
         this.question = data.question;
