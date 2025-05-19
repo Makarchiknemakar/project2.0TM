@@ -98,7 +98,7 @@ startBtn.addEventListener('click', () => {
     questions = [];
     GeographyLangQuestion.counter = 0;
     for (let i = 0; i < 12; i++) {
-        questions.push(new  GEOGRAPHY LangQuestion());
+        questions.push(new  GeographyLangQuestion());
     }
     current = 0;
     score = 0;
