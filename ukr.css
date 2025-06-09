@@ -7,6 +7,10 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -15,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    display: none;
+    text-align: center;
 }
 
 .question {
