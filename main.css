@@ -1,50 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
-body{
-font-family: "Montserrat";/* Сімейство шрифтів */
-font-size: 18px;
-background-color:#f4f1ed ;
-color:darkgrey;
-text-align:center;
-
-}
-
-h1{
-  color: darkgrey  ;
-  text-align:center;
-}
-h2{
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  background-color: #f4f1ed;
   color: darkgrey;
-  text-align:center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.button_1{
-  background:skyblue;
-  border:20px;
-  border-radius:25px;
+h1, h2 {
+  color: darkgrey;
+  margin: 20px 0 10px;
 }
-.button_2{
-  background:lightgreen;
-  border:20px;
-  border-radius:25px;
+
+p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.5;
 }
-.button_3{
-  background:tan;
-  border:20px;
-  border-radius:25px;
+
+.main-image {
+  max-width: 90%;
+  height: auto;
+  margin: 30px auto 20px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-.button_4{
-  background:pink;
-  border:20px;
-  border-radius:25px;
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+  padding: 0 10px;
+  max-width: 900px;
 }
-.button_5{
-  background:red;
-  border:20px;
-  border-radius:25px;
+
+.buttons a {
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 25px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: inline-block;
 }
-.button_6{
-  background:violet;
-  border:20px;
-  border-radius:25px;
+
+.buttons a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.button_1 { background: skyblue; }
+.button_2 { background: lightgreen; }
+.button_3 { background: tan; }
+.button_4 { background: pink; }
+.button_5 { background: red; }
+.button_6 { background: violet; }
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  color: #999;
+  font-size: 1em;
 }
