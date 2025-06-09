@@ -6,6 +6,11 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -14,8 +19,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    display: none;
-    
 }
 
 .question {
@@ -24,7 +27,7 @@ body {
     margin-bottom: 30px;
     font-weight: 600;
     color: #222;
-    background-color:lightgreen;
+    background-color: lightgreen;
 }
 
 .answers {
@@ -33,13 +36,12 @@ body {
     gap: 15px;
     width: 100%;
     max-width: 600px;
-    
 }
 
 .answer {
     font-size: 1.8em;
     border: 2px solid #ff6b6b;
-    background-color:lightgreen;
+    background-color: lightgreen;
     padding: 15px 25px;
     border-radius: 20px;
     text-align: center;
@@ -48,8 +50,7 @@ body {
 }
 
 .answer:hover {
-    background-color: #ffb3a7;
-     background-color:green;
+    background-color: green;
     transform: scale(1.03);
 }
 
@@ -58,7 +59,7 @@ body {
     font-size: 2.5em;
     font-weight: 600;
     border: none;
-   background-color:lightgreen;
+    background-color: lightgreen;
     color: #fff;
     border-radius: 30px;
     cursor: pointer;
@@ -66,7 +67,7 @@ body {
 }
 
 .start:hover {
-    background-color:green;
+    background-color: green;
 }
 
 .main-container {
