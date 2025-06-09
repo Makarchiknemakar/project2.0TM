@@ -6,6 +6,11 @@ body {
     margin: 0;
     padding: 0;
     color: #1e3a5f; /* темно-синій текст */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -14,7 +19,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    display: none;
 }
 
 .question {
