@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
 body {
+    text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     background-color: #f4f1ed;
     margin: 0;
